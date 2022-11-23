@@ -1,91 +1,111 @@
- *{
-     margin: 0;
-     padding: 0;
- }
-
- #titulo{
-     font-family: sans-serif;
-     color: #380861;
-     margin-left: 7%;
- }
-
- #subtitulo{
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(https://s2.glbimg.com/vHByUsV9fEnW-5HlpmLm0v-6cZo=/e.glbimg.com/og/ed/f/original/2020/11/17/como-escolher-o-computador-ideal-para-home-office.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main {
     font-family: sans-serif;
-    color: #380861;
-    margin-left: 10%;
- }
-
- #check {
-    display: inline-block;
-}
-
- fieldset{
-     border:0;
- }
-
- body{
-     background-color: #F0F8FF;
-     font-family: sans-serif;
-     font-size: 1em;
-     color: #59429d;
-     margin-left: 36%;
-     margin-top: 2%;
-     justify-content: center;
- }
-
- input, select, textarea, button {
+    font-size: 1em;
+    color: #fec29c;
+    text-shadow: #000 1px 1px 1px;
+    max-width: 600px;
+    margin: 5%;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: #777bad7e;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: #000 1px 1px 8px 1px;
+    border: rgba(0, 0, 0, 0.54) 1px solid;
+  }
+  
+  .banner {
+    font-family: sans-serif;
+    color: #000;
+    text-shadow: #fff 2px 2px 5px;
+    text-align: center;
+    color: #ee9e69;
+    text-shadow: #000 1px 1px 1px;
+  }
+  
+  fieldset {
+    border: 0;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
     border-radius: 5px;
- }
-
- .campo {
+    color: #380B61;
+  }
+  
+  .campo {
     margin-bottom: 1em;
- }
-
- .campo label {
+  }
+  
+  .campo label {
     margin-bottom: 0.2em;
-    color: #59429d;
-    display: block; 
- }
-
- fieldset.grupo .campo {
-     float: left;
-     margin-right:1em;
- }
-
- .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
-     padding: 0.2em;
-     border: 1px solid #59429d;
-     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-     display: block;
- }
-
- .campo select option {
-     padding-right:1em;
- }
-
- .campo input:focus, .campo select:focus, .campo textarea:focus {
-     background: #E0E0F8;
- }
-
- .botao {
-     font-size: 1.2em;
-     background: #59429d;
-     border: 0;
-     margin-bottom: 1em;
-     color: #ffffff;
-     padding: 0.2em 0.6em;
-     box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-     position: absolute;
-     top: 90%;
-     left: 50%;
-     margin-right: -50%;
-     translate: translate(-50%, -50%);
- }
-
- .botao:hover {
-     background: #ccbbff;
-     box-shadow: inset 2px, 2px, 2px rgba(0,0,0,0.2);
-     text-shadow: none;
- }
-
-
+    display: block;
+    color: #fec29c;
+    text-shadow: #000 1px 1px 1px;
+  }
+  
+  fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+  }
+  
+  .campo input[type="text"],
+  .campo input[type="email"],
+  .campo select,
+  .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #F6AD7B;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+  }
+  
+  .campo textarea {
+    width: 100%;
+    height: 6em;
+  }
+  
+  .campo input:focus,
+  .campo select:focus,
+  .campo textarea:focus {
+    background: #e0e0f8;
+  }
+  
+  .btnContain {
+    text-align: center;
+  }
+  
+  .botao {
+    font-size: 1.2em;
+    background: #F6AD7B;
+    border: 0;
+    margin: 1em;
+    color: #380B61;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  }
+  
+  .botao:hover {
+    background: #ccbbff;
+    color: #380B61;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+  }
+  
+  #check {
+    display: inline-block;
+  }
